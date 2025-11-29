@@ -5,9 +5,10 @@ body {
     padding: 20px;
 }
 .container {
-    max-width: 700px;
+    max-width: 1000px;
+    max-height: 100px;
     margin: 0 auto;
-    background: #fff;
+    background: #9851d3;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
