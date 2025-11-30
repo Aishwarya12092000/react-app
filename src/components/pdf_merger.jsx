@@ -49,7 +49,7 @@ const PdfMerger = () => {
 
   return (
     <div>
-      <h2>PDF Merger (Python Backend)</h2>
+      <h2>PDF Merger</h2>
       <input type="file" accept="application/pdf" multiple onChange={handleFileChange} />
       <button onClick={handleMerge} disabled={loading}>
         {loading ? "Merging..." : "Merge PDFs"}
