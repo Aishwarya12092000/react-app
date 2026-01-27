@@ -144,7 +144,7 @@ function downloadBytes(bytes, filename) {
     a.href = url;
     a.download = filename;
     document.body.appendChild(a);
-    a.click();
+    // a.click();
     a.remove();
 
     setTimeout(() => URL.revokeObjectURL(url), 10_000);
